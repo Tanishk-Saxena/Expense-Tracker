@@ -1,4 +1,4 @@
-export default (state, action) => {
+const fun = (state, action) => {
     switch(action.type){
         default:
             return state;
@@ -14,3 +14,5 @@ export default (state, action) => {
             }
     }
 }
+
+export default fun;
